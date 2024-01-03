@@ -15,13 +15,7 @@ const App = () => {
 
   React.useEffect(() => {
     // Example usage of Atomics.waitAsync
-    const sharedBuffer = new SharedArrayBuffer(1024);
-    const sharedArray = new Int32Array(sharedBuffer);
-
-    Atomics.store(sharedArray, 0, 10);
-
-    const result = Atomics.waitAsync(sharedArray, 0, 10);
-    console.log("result", result);
+    console.log("result", Atomics.waitAsync);
   }, []);
   return React.createElement(
     "div",
