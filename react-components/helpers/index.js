@@ -1,4 +1,4 @@
-import { userData } from "../consts/user-data";
+import { userData } from "../consts/user-data.js";
 
 export const getUserData = () => {
   return new Promise((resolve, reject) => {
