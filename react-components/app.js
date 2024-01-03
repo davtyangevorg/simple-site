@@ -1,3 +1,5 @@
+import { sum } from "./button";
+
 const rootNode = document.getElementById("root");
 
 const Button = () => {
