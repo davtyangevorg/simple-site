@@ -1,10 +1,10 @@
 // import { add } from "./helpers.js";
 
-// $(document).ready(function () {
-//   $("#clickMe").click(function () {
-//     $("#message").text("You clicked the button!");
-//   });
-// });
+$(document).ready(function () {
+  $("#clickMe1").click(function () {
+    $("#message1").text("You clicked the button!");
+  });
+});
 
 document.addEventListener("DOMContentLoaded", function () {
   const button = document.getElementById("clickMe");
