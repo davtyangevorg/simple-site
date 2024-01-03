@@ -1,7 +1,7 @@
+// app.js
+import React, { useEffect } from "react";
 import { Button } from "./button/index.js";
 import { getUserData } from "./helpers/index.js";
-
-const rootNode = document.getElementById("root");
 
 const App = () => {
   const getUserDataAsync = async () => {
@@ -9,11 +9,11 @@ const App = () => {
     console.log("data", data);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     getUserDataAsync();
   }, []);
 
-  React.useEffect(() => {
+  useEffect(() => {
     // Example usage of Atomics.waitAsync
     console.log("result", Atomics.waitAsync);
   }, []);
@@ -25,4 +25,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(React.createElement(App, null), rootNode);
+export default App;

@@ -1,6 +1,5 @@
-// import { add } from "./helpers.js";
-
-// console.log(add(1, 2));
+// script.js
+import App from "./react-components/app.js";
 
 $(document).ready(function () {
   $("#clickMe1").click(function () {
@@ -18,4 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
       message.innerHTML = "";
     }
   });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rootNode = document.getElementById("root");
+  ReactDOM.render(React.createElement(App, null), rootNode);
 });
