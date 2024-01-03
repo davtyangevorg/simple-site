@@ -1,6 +1,6 @@
 import { add } from "./helpers.js";
 
-console.log(add(1, 2));
+// console.log(add(1, 2));
 
 $(document).ready(function () {
   $("#clickMe1").click(function () {
