@@ -1,5 +1,5 @@
 // app.js
-import React, { useEffect } from "react";
+
 import { Button } from "./button/index.js";
 import { getUserData } from "./helpers/index.js";
 
@@ -9,11 +9,11 @@ const App = () => {
     console.log("data", data);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     getUserDataAsync();
   }, []);
 
-  useEffect(() => {
+  React.useEffect(() => {
     // Example usage of Atomics.waitAsync
     console.log("result", Atomics.waitAsync);
   }, []);
