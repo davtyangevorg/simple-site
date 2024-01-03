@@ -1,4 +1,4 @@
-import { sum } from "./button";
+import { sum } from "./button/index.js";
 
 const rootNode = document.getElementById("root");
 
