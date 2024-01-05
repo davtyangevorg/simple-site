@@ -1,5 +1,5 @@
 // script.js
-import App from "./react-components/app.js";
+// import App from "./react-components/app.js";
 
 $(document).ready(function () {
   $("#clickMe1").click(function () {
@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const rootNode = document.getElementById("root");
-  ReactDOM.render(React.createElement(App, null), rootNode);
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   const rootNode = document.getElementById("root");
+//   ReactDOM.render(React.createElement(App, null), rootNode);
+// });
 
 const Appp = () => <h1>vardan </h1>;
 ReactDOM.render(<Appp />, document.getElementById("root"));
