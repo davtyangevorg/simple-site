@@ -1,5 +1,5 @@
 // script.js
-import App from "./react-components/app.js";
+// import App from "./react-components/app.js";
 
 $(document).ready(function () {
   $("#clickMe1").click(function () {
@@ -21,5 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const rootNode = document.getElementById("root");
-ReactDOM.render(<App />, rootNode);
+const App = () => <h1>Hello, JSX!</h1>;
 
+ReactDOM.render(<App />, rootNode);
