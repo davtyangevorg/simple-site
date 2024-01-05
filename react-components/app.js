@@ -17,13 +17,14 @@ const App = () => {
     // Example usage of Atomics.waitAsync
     console.log("result", Atomics.waitAsync);
   }, []);
-  
-  return React.createElement(
-    "div",
-    null,
-    React.createElement(Button, null),
-    "Hello, React!"
-  );
+
+  return <div>vardan</div>;
+  //  React.createElement(
+  //   "div",
+  //   null,
+  //   React.createElement(Button, null),
+  //   "Hello, React!"
+  // );
 };
 
 export default App;
