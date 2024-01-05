@@ -19,10 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   const rootNode = document.getElementById("root");
-//   ReactDOM.render(React.createElement(App, null), rootNode);
-// });
-
-const Appp = () => <h1>vardan </h1>;
-ReactDOM.render(<Appp />, document.getElementById("root"));
+document.addEventListener("DOMContentLoaded", () => {
+  const rootNode = document.getElementById("root");
+  ReactDOM.render(<div>DDD</div>, rootNode);
+});
