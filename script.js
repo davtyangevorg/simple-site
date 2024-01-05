@@ -7,6 +7,10 @@ $(document).ready(function () {
   });
 });
 
+console.log('')
+document.onload(()=>{
+  console.log('loadloadlloads')
+})
 document.addEventListener("DOMContentLoaded", function () {
   console.log("11");
   const button = document.getElementById("clickMe");
