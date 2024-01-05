@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("loda");
   const rootNode = document.getElementById("root");
   ReactDOM.render(<div>DDD</div>, rootNode);
 });
+
+// const App = () => <h1>Hello, JSX!</h1>;
+// ReactDOM.render(<App />, document.getElementById('root'));
