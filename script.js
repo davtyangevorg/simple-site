@@ -24,6 +24,5 @@ document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(React.createElement(App, null), rootNode);
 });
 
-const App = () => <h1>vardan </h1>;
-ReactDOM.render(<App />, document.getElementById("root"));
-
+const Appp = () => <h1>vardan </h1>;
+ReactDOM.render(<Appp />, document.getElementById("root"));
