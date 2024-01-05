@@ -1,5 +1,5 @@
 // script.js
-// import App from "./react-components/app.js";
+import App from "./react-components/app.js";
 
 $(document).ready(function () {
   $("#clickMe1").click(function () {
@@ -20,9 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("loda");
-});
-
 const rootNode = document.getElementById("root");
-ReactDOM.render(<div>DDD</div>, rootNode);
+ReactDOM.render(<App />, rootNode);
+
