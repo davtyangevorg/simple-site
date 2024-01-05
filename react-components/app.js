@@ -17,6 +17,7 @@ const App = () => {
     // Example usage of Atomics.waitAsync
     console.log("result", Atomics.waitAsync);
   }, []);
+  
   return React.createElement(
     "div",
     null,
