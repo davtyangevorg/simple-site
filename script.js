@@ -8,6 +8,7 @@ $(document).ready(function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  console.log("11");
   const button = document.getElementById("clickMe");
   const message = document.getElementById("message");
   button.addEventListener("click", function () {
@@ -19,11 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   console.log("loda");
-//   const rootNode = document.getElementById("root");
-//   ReactDOM.render(<div>DDD</div>, rootNode);
-// });
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("loda");
+});
 
-const App = () => <h1>Hello, JSX!</h1>;
-ReactDOM.render(<App />, document.getElementById("root"));
+const rootNode = document.getElementById("root");
+ReactDOM.render(<div>DDD</div>, rootNode);
