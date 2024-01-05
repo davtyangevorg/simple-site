@@ -18,13 +18,12 @@ const App = () => {
     console.log("result", Atomics.waitAsync);
   }, []);
 
-  return <div>vardan</div>;
-  //  React.createElement(
-  //   "div",
-  //   null,
-  //   React.createElement(Button, null),
-  //   "Hello, React!"
-  // );
+  return React.createElement(
+    "div",
+    null,
+    React.createElement(Button, null),
+    "Hello, React!"
+  );
 };
 
 export default App;
